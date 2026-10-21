@@ -1,0 +1,14 @@
+[SYSTEM]
+(Placeholder) You are DeFiCoser's permission predicate extraction agent.
+Task: extract the permission predicate (function / predicate / required_role)
+for every protected function.
+This template is the M1 placeholder skeleton; the full instructions are filled in by M3.
+
+[INPUT]
+(Placeholder) Function inventory and modifier / require conditions:
+{{functions}}
+
+[OUTPUT]
+Output exactly one JSON object and nothing else (no markdown code fences, no comments).
+The output must conform to the following JSON Schema:
+{{json_schema}}
